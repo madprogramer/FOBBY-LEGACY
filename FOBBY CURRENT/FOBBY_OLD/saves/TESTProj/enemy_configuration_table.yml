@@ -1,0 +1,940 @@
+0:
+  '"The" Flag': 0
+  Action 1: 0
+  Action 1 Argument: 0
+  Action 2: 0
+  Action 2 Argument: 0
+  Action 3: 0
+  Action 3 Argument: 0
+  Action 4: 0
+  Action 4 Argument: 0
+  Action Order: 0
+  Boss Flag: 0
+  Death Sound: normal
+  Death Text Pointer: $c77eff
+  Defense: 0
+  Encounter Text Pointer: $ef7858
+  Experience points: 0
+  Final Action: 0
+  Final Action Argument: 0
+  Fire vulnerability: 100%
+  Flash vulnerability: 100%
+  Freeze vulnerability: 100%
+  Gender: male
+  Guts: 0
+  HP: 0
+  Hypnosis/Brainshock vulnerability: 100%
+  Initial Status: normal
+  Item Dropped: 0
+  Item Rarity: 0
+  Level: 0
+  Luck: 0
+  Max Call: 0
+  Mirror Success Rate: 0
+  Miss Rate: 0
+  Money: 0
+  Movement pattern: 0
+  Music: 0
+  Name: 'null'
+  Offense: 0
+  Overworld Sprite: 0
+  PP: 0
+  Paralysis vulnerability: 100%
+  Row: 0
+  Run Flag: 7
+  Speed: 0
+  Type: normal
+  Unknown: 0
+1:
+  '"The" Flag': 1
+  Action 1: 63
+  Action 1 Argument: 0
+  Action 2: 64
+  Action 2 Argument: 0
+  Action 3: 0
+  Action 3 Argument: 0
+  Action 4: 0
+  Action 4 Argument: 0
+  Action Order: 0
+  Boss Flag: 0
+  Death Sound: normal
+  Death Text Pointer: $c77eff
+  Defense: 35
+  Encounter Text Pointer: $ef7858
+  Experience points: 57
+  Final Action: 0
+  Final Action Argument: 0
+  Fire vulnerability: 50%
+  Flash vulnerability: 50%
+  Freeze vulnerability: 50%
+  Gender: neutral
+  Guts: 255
+  HP: 30
+  Hypnosis/Brainshock vulnerability: 50%
+  Initial Status: normal
+  Item Dropped: 0
+  Item Rarity: 0
+  Level: 1
+  Luck: 255
+  Max Call: 0
+  Mirror Success Rate: 100
+  Miss Rate: 0
+  Money: 0
+  Movement pattern: 0
+  Music: 1
+  Name: Ratata
+  Offense: 20
+  Overworld Sprite: 132
+  PP: 25
+  Paralysis vulnerability: 100%
+  Row: 0
+  Run Flag: 7
+  Speed: 255
+  Type: normal
+  Unknown: 3
+2:
+  '"The" Flag': 1
+  Action 1: 63
+  Action 1 Argument: 0
+  Action 2: 65
+  Action 2 Argument: 0
+  Action 3: 66
+  Action 3 Argument: 0
+  Action 4: 0
+  Action 4 Argument: 0
+  Action Order: 0
+  Boss Flag: 0
+  Death Sound: normal
+  Death Text Pointer: encounter.pileofyarn
+  Defense: 1
+  Encounter Text Pointer: encounter.appeared
+  Experience points: 2
+  Final Action: 0
+  Final Action Argument: 0
+  Fire vulnerability: 100%
+  Flash vulnerability: 100%
+  Freeze vulnerability: 1%
+  Gender: neutral
+  Guts: 0
+  HP: 15
+  Hypnosis/Brainshock vulnerability: 100%
+  Initial Status: normal
+  Item Dropped: 5
+  Item Rarity: 6
+  Level: 3
+  Luck: 255
+  Max Call: 0
+  Mirror Success Rate: 100
+  Miss Rate: 12
+  Money: 5
+  Movement pattern: 0
+  Music: 0
+  Name: Yarn Waddle Dee
+  Offense: 15
+  Overworld Sprite: 0
+  PP: 0
+  Paralysis vulnerability: 100%
+  Row: 0
+  Run Flag: 7
+  Speed: 1
+  Type: normal
+  Unknown: 3
+3:
+  '"The" Flag': 0
+  Action 1: 66
+  Action 1 Argument: 2
+  Action 2: 0
+  Action 2 Argument: 0
+  Action 3: 0
+  Action 3 Argument: 0
+  Action 4: 0
+  Action 4 Argument: 0
+  Action Order: 0
+  Boss Flag: 1
+  Death Sound: normal
+  Death Text Pointer: $c77eff
+  Defense: 5
+  Encounter Text Pointer: $ef7858
+  Experience points: 0
+  Final Action: 67
+  Final Action Argument: 4
+  Fire vulnerability: 100%
+  Flash vulnerability: 100%
+  Freeze vulnerability: 1%
+  Gender: male
+  Guts: 10
+  HP: 50
+  Hypnosis/Brainshock vulnerability: 100%
+  Initial Status: normal
+  Item Dropped: 0
+  Item Rarity: 0
+  Level: 100
+  Luck: 0
+  Max Call: 1
+  Mirror Success Rate: 0
+  Miss Rate: 0
+  Money: 0
+  Movement pattern: 0
+  Music: 68
+  Name: Yin Yarn
+  Offense: 40
+  Overworld Sprite: 0
+  PP: 0
+  Paralysis vulnerability: 100%
+  Row: 0
+  Run Flag: 6
+  Speed: 50
+  Type: normal
+  Unknown: 2
+4:
+  '"The" Flag': 0
+  Action 1: 68
+  Action 1 Argument: 5
+  Action 2: 0
+  Action 2 Argument: 0
+  Action 3: 0
+  Action 3 Argument: 0
+  Action 4: 0
+  Action 4 Argument: 0
+  Action Order: 0
+  Boss Flag: 1
+  Death Sound: normal
+  Death Text Pointer: $c77eff
+  Defense: 255
+  Encounter Text Pointer: $ef7858
+  Experience points: 0
+  Final Action: 69
+  Final Action Argument: 6
+  Fire vulnerability: 100%
+  Flash vulnerability: 100%
+  Freeze vulnerability: 1%
+  Gender: male
+  Guts: 0
+  HP: 2
+  Hypnosis/Brainshock vulnerability: 100%
+  Initial Status: normal
+  Item Dropped: 0
+  Item Rarity: 0
+  Level: 0
+  Luck: 0
+  Max Call: 0
+  Mirror Success Rate: 0
+  Miss Rate: 0
+  Money: 0
+  Movement pattern: 0
+  Music: 68
+  Name: Shielded Yin Yarn
+  Offense: 0
+  Overworld Sprite: 0
+  PP: 0
+  Paralysis vulnerability: 100%
+  Row: 0
+  Run Flag: 6
+  Speed: 1
+  Type: normal
+  Unknown: 2
+5:
+  '"The" Flag': 0
+  Action 1: 66
+  Action 1 Argument: 2
+  Action 2: 0
+  Action 2 Argument: 0
+  Action 3: 0
+  Action 3 Argument: 0
+  Action 4: 0
+  Action 4 Argument: 0
+  Action Order: 0
+  Boss Flag: 1
+  Death Sound: normal
+  Death Text Pointer: $c77eff
+  Defense: 255
+  Encounter Text Pointer: $ef7858
+  Experience points: 0
+  Final Action: 69
+  Final Action Argument: 3
+  Fire vulnerability: 100%
+  Flash vulnerability: 100%
+  Freeze vulnerability: 1%
+  Gender: male
+  Guts: 0
+  HP: 2
+  Hypnosis/Brainshock vulnerability: 100%
+  Initial Status: normal
+  Item Dropped: 0
+  Item Rarity: 0
+  Level: 0
+  Luck: 0
+  Max Call: 0
+  Mirror Success Rate: 0
+  Miss Rate: 0
+  Money: 0
+  Movement pattern: 0
+  Music: 68
+  Name: Shielded and Healed Yin Yarn
+  Offense: 0
+  Overworld Sprite: 0
+  PP: 0
+  Paralysis vulnerability: 100%
+  Row: 0
+  Run Flag: 6
+  Speed: 1
+  Type: normal
+  Unknown: 2
+6:
+  '"The" Flag': 0
+  Action 1: 67
+  Action 1 Argument: 2
+  Action 2: 0
+  Action 2 Argument: 0
+  Action 3: 0
+  Action 3 Argument: 0
+  Action 4: 0
+  Action 4 Argument: 0
+  Action Order: 0
+  Boss Flag: 1
+  Death Sound: normal
+  Death Text Pointer: $c77eff
+  Defense: 5
+  Encounter Text Pointer: $ef7858
+  Experience points: 0
+  Final Action: 67
+  Final Action Argument: 8
+  Fire vulnerability: 100%
+  Flash vulnerability: 100%
+  Freeze vulnerability: 1%
+  Gender: male
+  Guts: 10
+  HP: 50
+  Hypnosis/Brainshock vulnerability: 100%
+  Initial Status: normal
+  Item Dropped: 0
+  Item Rarity: 0
+  Level: 100
+  Luck: 0
+  Max Call: 1
+  Mirror Success Rate: 0
+  Miss Rate: 0
+  Money: 0
+  Movement pattern: 0
+  Music: 1
+  Name: Yin Yarn
+  Offense: 40
+  Overworld Sprite: 0
+  PP: 0
+  Paralysis vulnerability: 100%
+  Row: 0
+  Run Flag: 6
+  Speed: 50
+  Type: normal
+  Unknown: 2
+7:
+  '"The" Flag': 0
+  Action 1: 68
+  Action 1 Argument: 8
+  Action 2: 0
+  Action 2 Argument: 0
+  Action 3: 0
+  Action 3 Argument: 0
+  Action 4: 0
+  Action 4 Argument: 0
+  Action Order: 0
+  Boss Flag: 1
+  Death Sound: normal
+  Death Text Pointer: $c77eff
+  Defense: 255
+  Encounter Text Pointer: $ef7858
+  Experience points: 0
+  Final Action: 69
+  Final Action Argument: 9
+  Fire vulnerability: 100%
+  Flash vulnerability: 100%
+  Freeze vulnerability: 1%
+  Gender: male
+  Guts: 0
+  HP: 2
+  Hypnosis/Brainshock vulnerability: 100%
+  Initial Status: normal
+  Item Dropped: 0
+  Item Rarity: 0
+  Level: 0
+  Luck: 0
+  Max Call: 0
+  Mirror Success Rate: 0
+  Miss Rate: 0
+  Money: 0
+  Movement pattern: 0
+  Music: 68
+  Name: Shielded Yin Yarn
+  Offense: 0
+  Overworld Sprite: 0
+  PP: 0
+  Paralysis vulnerability: 100%
+  Row: 0
+  Run Flag: 6
+  Speed: 1
+  Type: normal
+  Unknown: 2
+8:
+  '"The" Flag': 0
+  Action 1: 67
+  Action 1 Argument: 2
+  Action 2: 0
+  Action 2 Argument: 0
+  Action 3: 0
+  Action 3 Argument: 0
+  Action 4: 0
+  Action 4 Argument: 0
+  Action Order: 0
+  Boss Flag: 1
+  Death Sound: normal
+  Death Text Pointer: $c77eff
+  Defense: 255
+  Encounter Text Pointer: $ef7858
+  Experience points: 0
+  Final Action: 69
+  Final Action Argument: 6
+  Fire vulnerability: 100%
+  Flash vulnerability: 100%
+  Freeze vulnerability: 1%
+  Gender: male
+  Guts: 0
+  HP: 2
+  Hypnosis/Brainshock vulnerability: 100%
+  Initial Status: normal
+  Item Dropped: 0
+  Item Rarity: 0
+  Level: 0
+  Luck: 0
+  Max Call: 0
+  Mirror Success Rate: 0
+  Miss Rate: 0
+  Money: 0
+  Movement pattern: 0
+  Music: 68
+  Name: Shielded and Healed Yin Yarn
+  Offense: 0
+  Overworld Sprite: 0
+  PP: 0
+  Paralysis vulnerability: 100%
+  Row: 0
+  Run Flag: 6
+  Speed: 1
+  Type: normal
+  Unknown: 2
+9:
+  '"The" Flag': 0
+  Action 1: 67
+  Action 1 Argument: 2
+  Action 2: 0
+  Action 2 Argument: 0
+  Action 3: 0
+  Action 3 Argument: 0
+  Action 4: 0
+  Action 4 Argument: 0
+  Action Order: 0
+  Boss Flag: 1
+  Death Sound: normal
+  Death Text Pointer: $c77eff
+  Defense: 5
+  Encounter Text Pointer: $ef7858
+  Experience points: 0
+  Final Action: 67
+  Final Action Argument: 10
+  Fire vulnerability: 100%
+  Flash vulnerability: 100%
+  Freeze vulnerability: 1%
+  Gender: male
+  Guts: 10
+  HP: 50
+  Hypnosis/Brainshock vulnerability: 100%
+  Initial Status: normal
+  Item Dropped: 0
+  Item Rarity: 0
+  Level: 100
+  Luck: 0
+  Max Call: 1
+  Mirror Success Rate: 0
+  Miss Rate: 0
+  Money: 0
+  Movement pattern: 0
+  Music: 68
+  Name: Yin Yarn
+  Offense: 40
+  Overworld Sprite: 0
+  PP: 0
+  Paralysis vulnerability: 100%
+  Row: 0
+  Run Flag: 6
+  Speed: 50
+  Type: normal
+  Unknown: 2
+10:
+  '"The" Flag': 0
+  Action 1: 68
+  Action 1 Argument: 11
+  Action 2: 0
+  Action 2 Argument: 0
+  Action 3: 0
+  Action 3 Argument: 0
+  Action 4: 0
+  Action 4 Argument: 0
+  Action Order: 0
+  Boss Flag: 1
+  Death Sound: normal
+  Death Text Pointer: $c77eff
+  Defense: 255
+  Encounter Text Pointer: $ef7858
+  Experience points: 0
+  Final Action: 69
+  Final Action Argument: 12
+  Fire vulnerability: 100%
+  Flash vulnerability: 100%
+  Freeze vulnerability: 1%
+  Gender: male
+  Guts: 0
+  HP: 2
+  Hypnosis/Brainshock vulnerability: 100%
+  Initial Status: normal
+  Item Dropped: 0
+  Item Rarity: 0
+  Level: 0
+  Luck: 0
+  Max Call: 0
+  Mirror Success Rate: 0
+  Miss Rate: 0
+  Money: 0
+  Movement pattern: 0
+  Music: 68
+  Name: Shielded Yin Yarn
+  Offense: 0
+  Overworld Sprite: 0
+  PP: 0
+  Paralysis vulnerability: 100%
+  Row: 0
+  Run Flag: 6
+  Speed: 1
+  Type: normal
+  Unknown: 2
+11:
+  '"The" Flag': 0
+  Action 1: 67
+  Action 1 Argument: 2
+  Action 2: 0
+  Action 2 Argument: 0
+  Action 3: 0
+  Action 3 Argument: 0
+  Action 4: 0
+  Action 4 Argument: 0
+  Action Order: 0
+  Boss Flag: 1
+  Death Sound: normal
+  Death Text Pointer: $c77eff
+  Defense: 255
+  Encounter Text Pointer: $ef7858
+  Experience points: 0
+  Final Action: 69
+  Final Action Argument: 6
+  Fire vulnerability: 100%
+  Flash vulnerability: 100%
+  Freeze vulnerability: 1%
+  Gender: male
+  Guts: 0
+  HP: 2
+  Hypnosis/Brainshock vulnerability: 100%
+  Initial Status: normal
+  Item Dropped: 0
+  Item Rarity: 0
+  Level: 0
+  Luck: 0
+  Max Call: 0
+  Mirror Success Rate: 0
+  Miss Rate: 0
+  Money: 0
+  Movement pattern: 0
+  Music: 68
+  Name: Shielded and Healed Yin Yarn
+  Offense: 0
+  Overworld Sprite: 0
+  PP: 0
+  Paralysis vulnerability: 100%
+  Row: 0
+  Run Flag: 6
+  Speed: 1
+  Type: normal
+  Unknown: 2
+12:
+  '"The" Flag': 0
+  Action 1: 67
+  Action 1 Argument: 2
+  Action 2: 0
+  Action 2 Argument: 0
+  Action 3: 0
+  Action 3 Argument: 0
+  Action 4: 0
+  Action 4 Argument: 0
+  Action Order: 0
+  Boss Flag: 1
+  Death Sound: boss
+  Death Text Pointer: encounter.finally
+  Defense: 5
+  Encounter Text Pointer: $ef7858
+  Experience points: 1000
+  Final Action: 0
+  Final Action Argument: 0
+  Fire vulnerability: 100%
+  Flash vulnerability: 100%
+  Freeze vulnerability: 1%
+  Gender: male
+  Guts: 10
+  HP: 50
+  Hypnosis/Brainshock vulnerability: 100%
+  Initial Status: normal
+  Item Dropped: 0
+  Item Rarity: 0
+  Level: 100
+  Luck: 0
+  Max Call: 1
+  Mirror Success Rate: 0
+  Miss Rate: 0
+  Money: 599
+  Movement pattern: 0
+  Music: 68
+  Name: Yin Yarn
+  Offense: 40
+  Overworld Sprite: 0
+  PP: 0
+  Paralysis vulnerability: 100%
+  Row: 0
+  Run Flag: 6
+  Speed: 50
+  Type: normal
+  Unknown: 2
+13:
+  '"The" Flag': 0
+  Action 1: 74
+  Action 1 Argument: 13
+  Action 2: 0
+  Action 2 Argument: 0
+  Action 3: 0
+  Action 3 Argument: 0
+  Action 4: 0
+  Action 4 Argument: 0
+  Action Order: 0
+  Boss Flag: 1
+  Death Sound: normal
+  Death Text Pointer: encounter.pileofyarn
+  Defense: 255
+  Encounter Text Pointer: encounter.appeared
+  Experience points: 0
+  Final Action: 74
+  Final Action Argument: 14
+  Fire vulnerability: 1%
+  Flash vulnerability: 1%
+  Freeze vulnerability: 1%
+  Gender: neutral
+  Guts: 0
+  HP: 1
+  Hypnosis/Brainshock vulnerability: 1%
+  Initial Status: asleep
+  Item Dropped: 1
+  Item Rarity: 7
+  Level: 100
+  Luck: 0
+  Max Call: 0
+  Mirror Success Rate: 0
+  Miss Rate: 0
+  Money: 0
+  Movement pattern: 0
+  Music: 98
+  Name: Giant Sleepy Yarn Waddle Dee
+  Offense: 0
+  Overworld Sprite: 0
+  PP: 0
+  Paralysis vulnerability: 1%
+  Row: 0
+  Run Flag: 6
+  Speed: 1
+  Type: normal
+  Unknown: 0
+14:
+  '"The" Flag': 0
+  Action 1: 74
+  Action 1 Argument: 13
+  Action 2: 0
+  Action 2 Argument: 0
+  Action 3: 0
+  Action 3 Argument: 0
+  Action 4: 0
+  Action 4 Argument: 0
+  Action Order: 0
+  Boss Flag: 1
+  Death Sound: normal
+  Death Text Pointer: encounter.pileofyarn
+  Defense: 255
+  Encounter Text Pointer: encounter.appeared
+  Experience points: 2
+  Final Action: 0
+  Final Action Argument: 0
+  Fire vulnerability: 1%
+  Flash vulnerability: 1%
+  Freeze vulnerability: 1%
+  Gender: neutral
+  Guts: 0
+  HP: 1
+  Hypnosis/Brainshock vulnerability: 1%
+  Initial Status: normal
+  Item Dropped: 1
+  Item Rarity: 7
+  Level: 100
+  Luck: 0
+  Max Call: 0
+  Mirror Success Rate: 0
+  Miss Rate: 0
+  Money: 125
+  Movement pattern: 0
+  Music: 98
+  Name: Giant Yarn Waddle Dee
+  Offense: 0
+  Overworld Sprite: 0
+  PP: 0
+  Paralysis vulnerability: 1%
+  Row: 0
+  Run Flag: 6
+  Speed: 255
+  Type: normal
+  Unknown: 0
+15:
+  '"The" Flag': 1
+  Action 1: 63
+  Action 1 Argument: 0
+  Action 2: 22
+  Action 2 Argument: 0
+  Action 3: 0
+  Action 3 Argument: 0
+  Action 4: 0
+  Action 4 Argument: 0
+  Action Order: 1
+  Boss Flag: 0
+  Death Sound: normal
+  Death Text Pointer: encounter.pileofyarn
+  Defense: 10
+  Encounter Text Pointer: encounter.appeared
+  Experience points: 0
+  Final Action: 0
+  Final Action Argument: 0
+  Fire vulnerability: 100%
+  Flash vulnerability: 100%
+  Freeze vulnerability: 100%
+  Gender: neutral
+  Guts: 5
+  HP: 35
+  Hypnosis/Brainshock vulnerability: 100%
+  Initial Status: normal
+  Item Dropped: 5
+  Item Rarity: 5
+  Level: 8
+  Luck: 0
+  Max Call: 3
+  Mirror Success Rate: 100
+  Miss Rate: 0
+  Money: 15
+  Movement pattern: 0
+  Music: 98
+  Name: Yarn Waddle Doo
+  Offense: 15
+  Overworld Sprite: 0
+  PP: 0
+  Paralysis vulnerability: 100%
+  Row: 1
+  Run Flag: 7
+  Speed: 10
+  Type: normal
+  Unknown: 0
+16:
+  '"The" Flag': 1
+  Action 1: 72
+  Action 1 Argument: 17
+  Action 2: 0
+  Action 2 Argument: 0
+  Action 3: 0
+  Action 3 Argument: 0
+  Action 4: 0
+  Action 4 Argument: 0
+  Action Order: 0
+  Boss Flag: 0
+  Death Sound: normal
+  Death Text Pointer: encounter.pileofyarn
+  Defense: 255
+  Encounter Text Pointer: encounter.appeared
+  Experience points: 0
+  Final Action: 75
+  Final Action Argument: 0
+  Fire vulnerability: 100%
+  Flash vulnerability: 100%
+  Freeze vulnerability: 100%
+  Gender: neutral
+  Guts: 5
+  HP: 2
+  Hypnosis/Brainshock vulnerability: 100%
+  Initial Status: normal
+  Item Dropped: 6
+  Item Rarity: 7
+  Level: 100
+  Luck: 5
+  Max Call: 2
+  Mirror Success Rate: 0
+  Miss Rate: 0
+  Money: 0
+  Movement pattern: 0
+  Music: 98
+  Name: Happy Yarn Scarfy
+  Offense: 0
+  Overworld Sprite: 0
+  PP: 0
+  Paralysis vulnerability: 100%
+  Row: 1
+  Run Flag: 7
+  Speed: 15
+  Type: normal
+  Unknown: 0
+17:
+  '"The" Flag': 1
+  Action 1: 71
+  Action 1 Argument: 0
+  Action 2: 0
+  Action 2 Argument: 0
+  Action 3: 0
+  Action 3 Argument: 0
+  Action 4: 0
+  Action 4 Argument: 0
+  Action Order: 0
+  Boss Flag: 0
+  Death Sound: normal
+  Death Text Pointer: encounter.pileofyarn
+  Defense: 0
+  Encounter Text Pointer: encounter.appeared
+  Experience points: 100
+  Final Action: 73
+  Final Action Argument: 0
+  Fire vulnerability: 100%
+  Flash vulnerability: 100%
+  Freeze vulnerability: 100%
+  Gender: neutral
+  Guts: 20
+  HP: 1
+  Hypnosis/Brainshock vulnerability: 100%
+  Initial Status: normal
+  Item Dropped: 6
+  Item Rarity: 5
+  Level: 1
+  Luck: 20
+  Max Call: 2
+  Mirror Success Rate: 0
+  Miss Rate: 0
+  Money: 30
+  Movement pattern: 0
+  Music: 98
+  Name: Furious Yarn Scarfy
+  Offense: 50
+  Overworld Sprite: 0
+  PP: 0
+  Paralysis vulnerability: 100%
+  Row: 1
+  Run Flag: 7
+  Speed: 255
+  Type: normal
+  Unknown: 0
+18:
+  '"The" Flag': 1
+  Action 1: 18
+  Action 1 Argument: 0
+  Action 2: 63
+  Action 2 Argument: 0
+  Action 3: 0
+  Action 3 Argument: 0
+  Action 4: 0
+  Action 4 Argument: 0
+  Action Order: 1
+  Boss Flag: 0
+  Death Sound: normal
+  Death Text Pointer: encounter.pileofyarn
+  Defense: 8
+  Encounter Text Pointer: encounter.appeared
+  Experience points: 80
+  Final Action: 0
+  Final Action Argument: 0
+  Fire vulnerability: 100%
+  Flash vulnerability: 50%
+  Freeze vulnerability: 1%
+  Gender: neutral
+  Guts: 20
+  HP: 50
+  Hypnosis/Brainshock vulnerability: 50%
+  Initial Status: normal
+  Item Dropped: 0
+  Item Rarity: 0
+  Level: 10
+  Luck: 20
+  Max Call: 3
+  Mirror Success Rate: 100
+  Miss Rate: 0
+  Money: 32
+  Movement pattern: 0
+  Music: 98
+  Name: Yarn Chilly
+  Offense: 20
+  Overworld Sprite: 0
+  PP: 50
+  Paralysis vulnerability: 100%
+  Row: 0
+  Run Flag: 7
+  Speed: 8
+  Type: normal
+  Unknown: 0
+19:
+  '"The" Flag': 0
+  Action 1: 0
+  Action 1 Argument: 0
+  Action 2: 0
+  Action 2 Argument: 0
+  Action 3: 0
+  Action 3 Argument: 0
+  Action 4: 0
+  Action 4 Argument: 0
+  Action Order: 0
+  Boss Flag: 0
+  Death Sound: normal
+  Death Text Pointer: none.none
+  Defense: 0
+  Encounter Text Pointer: none.none
+  Experience points: 0
+  Final Action: 0
+  Final Action Argument: 0
+  Fire vulnerability: 100%
+  Flash vulnerability: 100%
+  Freeze vulnerability: 100%
+  Gender: neutral
+  Guts: 0
+  HP: 0
+  Hypnosis/Brainshock vulnerability: 100%
+  Initial Status: normal
+  Item Dropped: 0
+  Item Rarity: 0
+  Level: 1
+  Luck: 0
+  Max Call: 0
+  Mirror Success Rate: 100
+  Miss Rate: 0
+  Money: 0
+  Movement pattern: 0
+  Music: 98
+  Name: New Enemy
+  Offense: 0
+  Overworld Sprite: 0
+  PP: 0
+  Paralysis vulnerability: 100%
+  Row: 0
+  Run Flag: 7
+  Speed: 0
+  Type: normal
+  Unknown: 0

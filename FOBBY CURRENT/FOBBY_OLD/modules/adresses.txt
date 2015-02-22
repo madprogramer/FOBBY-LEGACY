@@ -1,0 +1,338 @@
+$c29039 $c77eff - Links to an End-Block
+$c29039 $c77dce - User used the [ITEM].  But nothing happened. (Formatted for In-Battle use?)
+$c29039 $c77df0 - User used the [ITEM].  But nothing happened. (Formatted for Out-of-Battle use?)
+$c29039 $c77eb6 - User tried to use the [ITEM].  But User could not use the [ITEM] very well.
+$c2859f $ef848c - Enemy is attacking!
+$c28740 $ef84b6 - Friend attacks!
+$c28770 $ef8530 - User spies on Enemy!
+$c2ad1b $ef89e0 - User prayed with her whole heart!
+$c2889b $ef84c6 - Friend is on guard.
+$c2903c $ef7eff - [10 01 02] (Pause for 0.02 seconds?)
+$c29556 $ef8543 - User tried PSI Rockin' Alpha!
+$c2955f $ef8543 - User tried PSI Rockin' Beta!
+$c29568 $ef8f43 - User tried PSI Rockin' Gamma!
+$c29571 $ef8f43 - User tried PSI Rockin' Omega!
+$c295ab $ef8f43 - User tried PSI Fire Alpha!
+$c295b4 $ef8543 - User tried PSI Fire Beta!
+$c295bd $ef8543 - User tried PSI Fire Gamma!
+$c295c6 $ef8543 - User tried PSI Fire Omega!
+$c29647 $ef8543 - User tried PSI Freeze Alpha!
+$c29650 $ef8543 - User tried PSI Freeze Beta!
+$c29659 $ef8543 - User tried PSI Freeze Gamma!
+$c29662 $ef8543 - User tried PSI Freeze Omega!
+$c29871 $ef8543 - User tried PSI Thunder Alpha!
+$c2987d $ef8543 - User tried PSI Thunder Beta!
+$c29889 $ef8543 - User tried PSI Thunder Gamma!
+$c29895 $ef8543 - User tried PSI Thunder Omega! 
+$c29987 $ef8543 - User tried PSI Flash Alpha!
+$c299ae $ef8543 - User tried PSI Flash Beta!
+$c299ef $ef8543 - User tried PSI Flash Gamma!
+$c29a35 $ef8543 - User tried PSI Flash Omega! 
+$c29aa6 $ef8543 - User tried PSI Starstorm Alpha!
+$c29aaf $ef8543 - User tried PSI Starstorm Omega! 
+$c29ac6 $ef8543 - User tried Lifeup Alpha!
+$c29acf $ef8543 - User tried Lifeup Beta!
+$c29ad8 $ef8543 - User tried Lifeup Gamma!
+$c29ae1 $ef8543 - User tried Lifeup Omega! 
+$c29aea $ef8543 - User tried Healing Alpha!
+$c29b7a $ef8543 - User tried Healing Beta!
+$c29c2c $ef8543 - User tried Healing Gamma!
+$c29cb8 $ef8543 - User tried Healing Omega! 
+$c29d44 $ef8543 - User tried Shield Alpha!
+$c29d81 $ef8543 - User tried Shield Beta!
+$c29d7a $ef8543 - User tried Shield Sigma!
+$c29db7 $ef8543 - User tried Shield Omega! 
+$c29dbe $ef8543 - User tried PSI Shield Alpha!
+$c29dfb $ef8543 - User tried PSI Shield Beta!
+$c29df4 $ef8543 - User tried PSI Shield Sigma!
+$c29e31 $ef8543 - User tried PSI Shield Omega! 
+$c29e38 $ef8543 - User tried Offense Up Alpha!
+$c29e7f $ef8543 - User tried Offense Up Omega! 
+$c29e86 $ef8543 - User tried Defense Down Alpha!
+$c29eff $ef8543 - User tried Defense Down Omega! 
+$c29f06 $ef8543 - User tried Hypnosis Alpha!
+$c29f57 $ef8543 - User tried Hypnosis Omega! 
+$c29f5e $ef8543 - User tried PSI Magnet Alpha!
+$c29fe1 $ef8543 - User tried PSI Magnet Omega! 
+$c29ffe $ef8543 - User tried Paralysis Alpha!
+$c2a04f $ef8543 - User tried Paralysis Omega! 
+$c2a056 $ef8543 - User tried Brainshock Alpha!
+$c2a0a7 $ef8543 - User tried Brainshock Omega! 
+$c29039 $ef8543 - User tried Teleport Alpha!
+$c29039 $ef8543 - User tried Teleport Beta! 
+$c2c145 $ef9a47 - User called for help!
+$c2c13c $ef9a5e - User sowed some seeds around itself. 
+$c2a821 $ef9a7e - Explode 
+$c2a821 $ef9a9e - Burst into flames 
+$c2889e $ef9abb - Steal an item 
+$c288eb $ef9b02 - Freeze time 
+$c289ce $ef9b20 - Glare with eerie eyes 
+$c28a92 $ef9b43 - Generate an electric field 
+$c28cf1 $ef9b73 - Stumble and fire a beam 
+$c28aeb $ef9b96 - Burp and blow breath 
+$c28b2c $ef9bc3 - Sting with a poison stinger 
+$c28b2c $ef9be6 - Give the kiss of death 
+$c28b6d $ef9c02 - Exhale arctic-cold breath 
+$c28bbe $ef9c30 - Scatter spores 
+$c28bfd $ef9c51 - Possess with a mini-ghost 
+$c28e3b $ef9c7e - Sprinkle powder 
+$c28c69 $ef9cad - Scatter mold spores 
+$c28cb8 $ef9cd1 - Employ a binding attack 
+$c28cb8 $ef9cf1 - Spit a sticky mucus 
+$c28cb8 $ef9d14 - Spew Fly Honey 
+$c28cb8 $ef9d3e - Shoot spider silk 
+$c28cf1 $ef9d62 - Say something scary 
+$c28d3a $ef9d81 - Do something mysterious 
+$c28d5a $ef9da1 - Disrupt senses 
+$c28dbb $ef9dbd - Size up the situation 
+$c28dfc $ef9dda - Exhale stinky breath 
+$c299ef $ef9e05 - Summon a storm 
+$c295ab $ef9e22 - Spill hot espresso 
+$c29f57 $ef9e47 - Play a haunting melody 
+$c295bd $ef9e69 - Extinguising blast 
+$c2987d $ef9e92 - Use Crashing Bang Boom 
+$c295c6 $ef9eb4 - Shoot a spray of fire 
+$c295bd $ef9ed7 - Breath fire 
+$c28e42 $ef7e25 - Make something spin around 
+$c29e38 $ef7e3e - Lose temper 
+$c28eae $ef7e55 - Say something nasty 
+$c28f21 $ef7e70 - Use a vacuum attack 
+$c29ad8 $ef7e88 - Replenish fuel supply 
+$c28f97 $ef7eac - Bite using poison fangs 
+$c2a821 $ef7ed5 - Fire a missile, get dizzy 
+$c28ff9 $ef7f02 - Start a continous attack 
+$c2889b $ef7f1e - Be on guard 
+$c2900b $ef7f32 - Spew a flaming fireball 
+$c285da $ef7f5a - Rush in and intertwine 
+$c28651 $ef7f7b - Attack with crushing chop 
+$c28651 $ef7f9a - Use a submission hold 
+$c28651 $ef7fc3 - Rev and accelerate 
+$c28651 $ef7fe0 - Brandish a knife 
+$c28651 $ef7ffc - Tear into 
+$c28651 $ef8010 - Use a biting attack 
+$c28651 $ef8026 - Claw with sharp nails 
+$c28651 $ef804b - Swing tail very hard 
+$c28651 $ef806d - Growl and lunge forward 
+$c28651 $ef808d - Wield a shopping bag 
+$c28651 $ef80ac - Swing a club 
+$c2902c $ef80c4 - Generate a tornado 
+$c2902c $ef80e4 - Generate a blast of water 
+$c29033 $ef8109 - Flash a menacing smile 
+$c29033 $ef812b - Laugh hysterically 
+$c29033 $ef814f - Edge closer 
+$c29033 $ef81a5 - Mutter, \"1\" 
+$c29033 $ef8186 - Murmur, \"2\" 
+$c29033 $ef8167 - Whisper,\"3\" 
+$c29033 $ef81c4 - Fall down 
+$c29033 $ef81d7 - Be absentminded 
+$c29033 $ef81f1 - Generate steam 
+$c29033 $ef8211 - Be wobbly 
+$c29033 $ef8226 - Be reeling 
+$c29033 $ef8239 - Have a big grin 
+$c29033 $ef825c - Take deep breaths 
+$c29033 $ef8281 - Send a greeting 
+$c29033 $ef8299 - Make a piercing howl 
+$c29033 $ef82bc - Say \"tick-tock\" 
+$c2a0ae $c97b6b - *Unknown 
+$c2a0bf $c97b6b - Restores HP 
+$c2a0cf $c97b6b - Restores HP 
+$c29ac6 $c97b6b - Restores HP 
+$c29acf $c97b6b - Restores HP 
+$c29ad8 $ef8e27 - Hand-Aid 
+$c29ae1 $c97b6b - Eat 
+$c2a0df $c97b6b - Recover PP 
+$c2a0ef $c97b6b - Recover PP 
+$c2a26f $c97b6b - Restore HP 
+$c2a27f $c97b6b - Defense up 1 
+$c2a360 $c97b6b - Restore HP 
+$c2a370 $c97b6b - Restore HP 
+$c2a380 $c97b6b - *Unknown 
+$c2a0bf $c97b6b - Wet Towel 
+$c2a0cf $c97b6b - Refreshing herb 
+$c29ac6 $c97b6b - Secret herb 
+$c29acf $c97b6b - Cup of Lifenoodles 
+$c29ad8 $ef8e27 - used the 
+$c29ae1 $c97b6b - IQ up 1 
+$c2a0df $c97b6b - Guts up 1 
+$c2a0ef $c97b6b - Speed up 1 
+$c2a26f $c97b6b - Vitality up 1 
+$c2a27f $c97b6b - Luck up 1 
+$c2a360 $c97b6b - Counter-PSI unit 
+$c2a370 $c97b6b - Shield Killer 
+$c2a380 $c97b6b - HP-Sucker 
+$c29aea $ef8e27 - Mummy Wrap 
+$c29b7a $ef8e27 - Bottle Rocket 
+$c29c2c $ef8e27 - Big Bottle Rocket 
+$c29cb8 $ef8e27 - Multi Bottle Rocket 
+$c2a39d $ef8e27 - Handbag strap 
+$c2a0ff $c97b6b - Bomb 
+$c2a14b $c97b6b - Super Bomb
+$c2a193 $c97b6b - Slime Generator
+$c2a1db $c97b6b - Yogurt Dispenser 
+$c2a227 $c97b6b - Snake bag 
+$c2a3d1 $ef8e3c - Pair of Dirty socks 
+$c2a422 $ef8e9e - Stag Beetle 
+$c2a46b $ef8e5e - Toothbrush 
+$c2a50e $c97f56 - Pharaoh's Curse 
+$c2a5d1 $c97ddc - Hungry HP-Sucker 
+$c2a5da $c97df5 - Bag of Dragonite 
+$c2a5e3 $c97e24 - Insecticide Spray 
+$c2a5ec $c97f56 - Xterminator Spray 
+$c2a818 $c97eb7 - Rust promoter 
+$c2a821 $c97eb7 - Rust Promoter DX 
+$c28cf1 $c97d75 - Sudden guts pill 
+$c2a86b $c97da3 - Defense spray 
+$c2a89d $c97ed1 - Defense Shower 
+$c28cf1 $c97eb7 - Teleport Box 
+$c2a821 $c97eb7 - Ruler 
+$c28cf1 $c97d75 - Protractor 
+$c2a86b $c97da3 - Pak of Bubble Gum 
+$c2a89d $c97ed1 - Fly Honey 
+$c28cf1 $c97eb7 - Piggy nose 
+$c28cf1 $c97eb7 - For sale sign 
+$c28cf1 $c97efa - Shyness book 
+$c28b2c $c97d43 - Picture postcard 
+$c2a507 $ef8e7e - Secret message 
+$c2a99c $c97cca - Chick 
+$c2aa0c $c97d21 - Chicken 
+$c2aa15 $c97d21 - ATM card 
+$c2aa6d $c97d21 - Zombie paper 
+$c2aa76 $c97d21 - Hawk eye 
+$c2aa7f $ef8e27 - Bicycle 
+$c2aac6 $ef8e27 - Emit glorious light 
+$c2ab0d $ef8e27 - Use electrical shock 
+$c2ab71 $ef8e27 - Scatter pollen around 
+$c29033 $c9fd82 - Reach out with its hand 
+$c29033 $c9fdbb - Play flute and poison 
+$c29033 $c97f72 - Spew exhaust fumes 
+$c29033 $c9fdbb - Laugh maniacally 
+$c29033 $c97f72 - Breath in through flute 
+$c2c1bd $c77eff - Leap and spread wings 
+$c29039 $c9f897 - Become Friendly 
+$c29039 $c9f9f3 - Make a loud rumble 
+$c29039 $c9fb61 - Give a great big hug 
+$c29039 $c9fb8b - Hacking cough 
+$c29039 $c9fb9f - Use a misery attack 
+$c29039 $c9fdfb - Utilize paint attack 
+$c29039 $c9fe1b - Come out swinging 
+$c29039 $c9fbf2 - Scratch with claws 
+$c29039 $c9fc48 - Peck at eyes 
+$c29039 $c9fc6f - Ram and trample 
+$c29039 $c9fd2e - Throw a punch 
+$c299ef $ef82d7 - Spit pumpkin seeds 
+$c2987d $ef82f7 - Fire a beam 
+$c28a92 $ef8317 - Jab with a spear 
+$c28cf1 $ef833e - Stomp with a huge foot 
+$c28b2c $ef835c - Swing a hula hoop 
+$c28c69 $ef838a - Charge forward 
+$c28d3a $ef83a8 - Shred fiercely 
+$c28e3b $ef83ca - Bite hard 
+$c28cf1 $ef83ed - Grumble about youth 
+$c28cf1 $ef8413 - Start lecturing 
+$c28cf1 $ef89fe - Scowl sharply 
+$c28cb8 $ef8a18 - Vent a terrible odor 
+$c28b6d $ef8a33 - Shout in a loud voice 
+$c286cb $ef8a52 - Shriek a war cry 
+$c28740 $ef8a6f - Knit a brow 
+$c2859f $ef8a8c - Lose a gear and bolts 
+$c2859f $ef8aa3 - Scatter some spores 
+$c2859f $ef8ac2 - Use a biting attack 
+$c2859f $ef8add - Weapon 
+$c2859f $ef8af8 - Armor 
+$c28740 $ef8b11 - Shoot cold-inducing beam 
+$c28740 $ef8b2f - Coil around and attack 
+$c2859f $ef8b4a - Smoke pour out from body 
+$c2859f $ef8b65 - Poo's special event 
+$c28651 $ef8b89 - Enemy Extender 
+$c28651 $ef8ba8 - *Weapon 
+$c28651 $ef8bc0 - Neutralizer 
+$c2916e $ef8be8 - *Unknown 
+$c28eae $ef8bfb - Food for one member 
+$c28eae $ef8c1d - Food for all members 
+$c28eae $ef8c3a - Misses home 
+$c29254 $ef8c58 - Body is numb 
+$c28f21 $ef8c75 - Fall asleep 
+$c28f21 $ef8c92 - Cannot move around 
+$c29033 $ef8cac - Able to move 
+$c29033 $ef8cc7 - Doesn't work very well 
+$c28b2c $ef9c30 - Wolf down Fly Honey
+$c2859f $ef8010 - Sound stone 
+$c1e00f $c77eff - Exit mouse 
+$c28b6d $ef8d72 - Pokey-related text 
+$c28cb8 $ef8dc1 - Pokey played dead 
+$c29298 $ef72f6 - Pokey pretended to cry 
+$c292ee $ef7415 - Pokey apologized profusely 
+$c292eb $c77eff - Bark 
+$c1de43 $c77eff - Chant a magic spell 
+$c290c6 $ef8e27 - *Unknown 
+$c290c6 $ef8d9f - Scratch head 
+$c2b27d $c97b6b - Snake 
+$c2b27d $c97c7b - Viper 
+$c2904e $ef727f - Hieroglyph copy 
+$c29042 $ef7192 - Town Map 
+$c29042 $ef7192 - Video Relaxant 
+$c2904b $ef71df - Discharge a stinky gas 
+$c2903f $ef71f6 - Cannot grasp true form... 
+$c29045 $ef6f0b - Pokey speech 1 
+$c29048 $ef720c - *Unknown 
+$c29033 $ef725a - *Unknown 
+$c29039 $c9fefd - Pokey speech 2 
+$c29039 $ef9ef4 - Try to get away 
+$c29033 $ef745f - Mirror command 
+$c29033 $ef749d - Suporma 
+$c29033 $ef74b0 - Insignificant Item 
+$c29033 $ef74c9 - Monkey's love 
+$c29033 $ef7569 - Tendakraut 
+$c29033 $ef7579 - King Banana 
+$c29033 $ef7591 - Receiver phone 
+$c29033 $ef7593 - Letter from mom 
+$c2a89d $c97f8a - Letter from Tony 
+$c28b2c $c97f8a - Letter from kids 
+$c2c14e $efa0dc - Give off rainbow of colors 
+$c29039 $efa2ab - 1st prayer 
+$c29039 $c77eff - 2nd prayer 
+$c29254 $ef8ebe - 3rd prayer 
+$c2987d $ef8f17 - 4th prayer 
+$c2c4c0 $c8fb1b - 5th prayer 
+$c29039 $c77eff - 6th prayer 
+$c2c513 $c77eff - 7th prayer 
+$c2c516 $c77eff - 8th prayer 
+$c29039 $ef84f3 - 9th prayer 
+$c2b0a1 $ef84d4 - Giygas damage attack 
+$c29039 $c6fb6d - Giygas feel strange attack 
+$c29039 $c6fbb5 - Giygas unknown attack
+$c28cf1 $c6fc1a - Giygas solidify attack
+$c29039 $c6fc6d - Giygas crying attack 
+$c29039 $c6ff9b - Giygas unknown attack 
+$c29039 $c6ffbb - 3 Giygas attacks 
+$c29039 $c6fc94 - 3 Giygas death attacks 
+$c29039 $c6fdbe - Random Giygas quote 
+$c29039 $c6fed6 - 2 random Giygas quotes 
+$c2c14e $ef8dde - Bazooka 
+$c2c572 $c9f0b8 - Heavy Bazooka 
+$c2c5d1 $c9f134 - <name> 
+$c2c5fa $c9f196 - Eat a bologne sandwich 
+$c2c623 $c9f1fd - Lose a gear and bolts 
+$c2c64c $c9f25e - Reapply a bandage 
+$c2c675 $c9f2bc - Clean the area 
+$c2c69e $c9f325 - Want to get a battery 
+$c2c6d0 $c9f389 - You can't use the 
+$c2c6f0 $c9f3ec - UNKNOWN
+$c29647 $ef8f17 - UNKNOWN 
+$c299ef $ef8f17 - UNKNOWN 
+$c2987d $ef8ee2 - UNKNOWN 
+$c29647 $ef8ee2 - UNKNOWN 
+$c299ef $ef8ee2 - UNKNOWN 
+$c2987d $ef8f4a - UNKNOWN 
+$c29647 $ef8f4a - UNKNOWN 
+$c299ef $ef8f4a - UNKNOWN 
+$c29039 $c9ee2f - UNKNOWN 
+$c29039 $ef8f91 - UNKNOWN
+$c2a818 $c97e9e - UNKNOWN 
+$c2a821 $c97e9e - UNKNOWN 
+$c29039 $c9ee68 - UNKNOWN 
+$c29039 $ef8d4c - UNKNOWN 
+$c29039 $ef8cdd - UNKNOWN 
+$c29039 $ef8cfb - UNKNOWN 
+$c29039 $ef8d17 - UNKNOWN 
+$c29039 $ef8d2f - UNKNOWN 
