@@ -3,37 +3,27 @@ from PIL import Image, ImageTk
 from tkFileDialog import *
 sys.path.append(os.getcwd() +"\modules")
 import battle_action, adress_index, item_config, enemies, npc_config, shop_config, default_name
-from buttonify import *
+from betterwidgets import *
 import flavors as f
 
 def main():
-#Global Variables
-    global windows
-    windows = []
-    global w_2
-    w_2 = []
-    global buttons
-    buttons = []
-    global labels
-    labels = []
-    global messageboxes
-    messageboxes = []
+    #Global Variables
+    widgets = {
+        "main":{
+        	"pointer": None
+            "default":{
+            "current" : True;
+            "buttons":{},"labels":{},"messageboxes":{},
+            "entries" : {},"listboxes" : {},"scalers" : {},
+            "radiobuttons" : {},"checkbuttons" : {},"frames" : {}
+            }
+        }
+    }
+
+    register = {}
+
     global theme
     theme = 0
-    global listboxes
-    listboxes = []
-    global register
-    register = []
-    global entries
-    entries = []
-    global scalers
-    scalers = []
-    global radiobuttons
-    radiobuttons = []
-    global checkbuttons
-    checkbuttons = []
-    global frames
-    frames = []
     global last_proj
     last_proj = ""
     global first_time
@@ -43,11 +33,10 @@ def main():
     global unc_path
     unc_path = ""
     
-    
     #Various Procedure # 1
     def set_theme():
         global theme
-        global register
+        #global register
         if theme == 0:
             f_0()
         elif theme == 1:
@@ -60,14 +49,14 @@ def main():
             f_4()
 
     def first_time_set():
-        global register
+        #global register
         global first_time
         if first_time == True:
             first_time = False
         register_registerer()
 
     def load_proj_order():
-        global register
+        #global register
         global proj_load_order
         proj_load_order = True
         open_proj()
@@ -75,7 +64,7 @@ def main():
         
 
     def open_proj():
-        global register
+        #global register
         global last_proj
         global proj_load_order
         global first_time
@@ -93,52 +82,54 @@ def main():
                 
                 FOBBYTEXT.set(random.choice(["Gee, it sure is borange around here!","Thank you for using me",
                                                    "WOOHOO! I can't wait to play EarthBound on Virtual Console"]) +"""
-Currently Loaded Project: """ + str(loader('last_proj', register)) + """
+Currently Loaded Project: """ + str( register['last_proj'] ) + """
 Default Project Directory: """ + str(unc_path))
             else:
                 Invalid = tkMessageBox.showwarning(title = "Invalid", message = "This folder has no project_info in it.")
                 last_proj = ""
                 register_registerer()
-                FOBBYTEXT.set("Hey you need to load project!")
+                FOBBYTEXT.set("Hey you need to load a project!")
                                                   
-
         
-    def loader(needle, haystack):
-        for element in haystack:
-            if not isinstance(element, list):
-                if element == needle:
-                    return True
-            else:
-                found = loader(needle, element)
-                if found:
-                    return element[0]
+    #def loader(needle, haystack):
+    #    for element in haystack:
+    #        if not isinstance(element, list):
+    #            if element == needle:
+    #                return True
+    #        else:
+    #            found = loader(needle, element)
+    #            if found:
+    #                return element[0]
 
     def register_registerer():
-        global register
+        #global register
         global theme
         global last_proj
         global first_time
         global unc_path
-        print register,theme,last_proj,first_time
-        register = [[theme,'theme'],[last_proj,'last_proj'],[first_time,'first_time']]
-        if (str(loader('last_proj', register))) != "" :
-            open_proj_inf = open(str(loader('last_proj', register)) + "\project_info",'rb')
+        print theme,last_proj,first_time
+        register = {'theme':theme,'last_proj':last_proj,'first_time':first_time}
+
+        if (str( register['last_proj'] )) != "" :
+            open_proj_inf = open( (str( register['last_proj'] )) + "\project_info",'rb')
             unc_path = open_proj_inf.read()[22:]        
             open_proj_inf.close()
+
         if unc_path != "":
             try:
-                buttonify(buttons,root,"Battle Action",300,300,b_action_but)
-                buttonify(buttons,root,"Adress List",300,332,index_but)
-                buttonify(buttons,root,"General Items",300,364,item_config_but)
-                buttonify(buttons,root,"Enemy Configuration",300,396,enemy_config_but)
-                buttonify(buttons,root,"NPC Configuration",300,428,npc_config_but)
-                buttonify(buttons,root,"Shops",300,460,store_but)
-                buttonify(buttons,root,"Default Names",300,492,name_but)
+                buttonify(widgets,root,default,"Battle Action",300,300,b_action_but)
+                buttonify(widgets,root,default,"Adress List",300,332,index_but)
+                buttonify(widgets,root,default,"General Items",300,364,item_config_but)
+                buttonify(widgets,root,default,"Enemy Configuration",300,396,enemy_config_but)
+                buttonify(widgets,root,default,"NPC Configuration",300,428,npc_config_but)
+                buttonify(widgets,root,default,"Shops",300,460,store_but)
+                buttonify(widgets,root,default,"Default Names",300,492,name_but)
                 set_theme()
             except:
                 print "Quit"
+
     def save_f():
-        global register
+        #global register
         register_registerer()
         outFile = open(os.getcwd() + '\FobbySave.txt', 'wb')
         pickle.dump(register, outFile)
@@ -146,7 +137,7 @@ Default Project Directory: """ + str(unc_path))
         outFile.close()
 
     def load_f():        
-        global register
+        #global register
         global theme
         global last_proj
         global first_time
@@ -154,9 +145,9 @@ Default Project Directory: """ + str(unc_path))
         if os.path.exists(os.getcwd() + "/" + 'FobbySave.txt'):
             with open(os.getcwd() + '\FobbySave.txt', 'rb') as in_file:
                 register = pickle.load(in_file)
-                theme = loader('theme', register)
-                last_proj = loader('last_proj', register)
-                first_time = loader('first_time', register)
+                theme = register['theme']
+                last_proj = register['last_proj']
+                first_time = register['first_time']
         else:
             theme = 0
             last_proj = ""
@@ -166,27 +157,27 @@ Default Project Directory: """ + str(unc_path))
 
     def f_0():
         global theme
-        f.f(windows,labels,buttons,listboxes,entries,scalers,radiobuttons,checkbuttons,frames,w_2,'black','white','grey','white')
+        f.f(widgets,'black','white','grey','white')
         theme = 0
 
     def f_1():
         global theme
-        f.f(windows,labels,buttons,listboxes,entries,scalers,radiobuttons,checkbuttons,frames,w_2,'black','spring green','dark green','spring green')
+        f.f(widgets,'black','spring green','dark green','spring green')
         theme = 1
 
     def f_2():
         global theme
-        f.f(windows,labels,buttons,listboxes,entries,scalers,radiobuttons,checkbuttons,frames,w_2,'black','hot pink','deep pink','hot pink')
+        f.f(widgets,'black','hot pink','deep pink','hot pink')
         theme = 2
 
     def f_3():
         global theme
-        f.f(windows,labels,buttons,listboxes,entries,scalers,radiobuttons,checkbuttons,frames,w_2,'black','lemon chiffon','yellow','lemon chiffon')
+        f.f(widgets,'black','lemon chiffon','yellow','lemon chiffon')
         theme = 3
 
     def f_4():
         global theme
-        f.f(windows,labels,buttons,listboxes,entries,scalers,radiobuttons,checkbuttons,frames,w_2,'black','dark orange','chocolate','dark orange')
+        f.f(widgets,'black','dark orange','chocolate','dark orange')
         theme = 4
 
     # Various Preocedures
@@ -194,26 +185,25 @@ Default Project Directory: """ + str(unc_path))
         exit(0)
 
     #Root Window
+    class MainMenu(Frame):
+	    root = Tkinter.Tk()
+	    root.geometry('1200x900')
+	    root.title('Fobby')
+	    widgets["main"]["default"]['pointer'] = root
+	    FOBBYTEXT = Tkinter.StringVar()
+	    proj_name = Tkinter.StringVar()
+	    uncompiled_directory = Tkinter.StringVar()
+	    
+	    welcome = Tkinter.Label(root,textvariable = FOBBYTEXT)
+	    welcome.place(x=250,y=250)
+	    labels.append(welcome)
 
-    root = Tkinter.Tk()
-    root.geometry('1200x900')
-    root.title('Fobby')
-    windows.append(root)
-    FOBBYTEXT = Tkinter.StringVar()
-
-    proj_name = Tkinter.StringVar()
-    uncompiled_directory = Tkinter.StringVar()
-    
-    welcome = Tkinter.Label(root,textvariable = FOBBYTEXT)
-    welcome.place(x=250,y=250)
-    labels.append(welcome)
-
-    fob_i = Image.open(os.getcwd()+"\modules\Fobby.png")
-    fob_to = ImageTk.PhotoImage(fob_i)
-    fobby_pic = Tkinter.Label(image=fob_to)
-    fobby_pic.image = fob_to
-    fobby_pic.place(x=250,y=300)
-    labels.append(fobby_pic)
+	    fob_i = Image.open(os.getcwd()+"\modules\Fobby.png")
+	    fob_to = ImageTk.PhotoImage(fob_i)
+	    fobby_pic = Tkinter.Label(image=fob_to)
+	    fobby_pic.image = fob_to
+	    fobby_pic.place(x=250,y=300)
+	    labels.append(fobby_pic)
 
     #Battle Menu
     def b_action_but():
@@ -273,7 +263,7 @@ Default Project Directory: """ + str(unc_path))
             default_name.call_name(w_2)
 
     def new_project():
-        global register
+        #global register
         global theme
         global last_proj
         
@@ -358,31 +348,20 @@ Default Project Directory: """ + str(unc_path))
         
         set_theme()
         
-        
 
     # File Menu
     menubar = Tkinter.Menu(root)
     root.config(menu = menubar)
-    def empty():
-        pass
 
     filemenu = Tkinter.Menu(menubar,tearoff = 0)
     configmenu = Tkinter.Menu(menubar,tearoff = 0)
     infomenu = Tkinter.Menu(menubar,tearoff = 0)
     thememenu = Tkinter.Menu(menubar,tearoff = 0)
 
-    def menu_attach(men,alist):
-        for section in alist:
-            men.add_command(label=section[0], command=section[1])
-
     menu_attach(filemenu,[["New Project",new_project],["Open Project",load_proj_order],["Save",save_f],["Quit",quitp]])
     menu_attach(configmenu,[["Set CoilSnake Location",empty],["Set Project Directory",load_proj_order]])
     menu_attach(infomenu,[["How To Use",empty],["I NEED MORE HELP!",empty],["Version",empty]])
     menu_attach(thememenu,[["Plain",f_0],["Mint",f_1],["Strawberry",f_2],["Banana",f_3],["Peanut",f_4]])
-
-    def cascade(alist):
-        for section in alist:
-            menubar.add_cascade(label=section[0], menu =section[1])
 
     cascade([["File",filemenu],["Configuration",configmenu],["Information",infomenu],["Flavor",thememenu]])
 
@@ -402,9 +381,6 @@ the file menu!""")
                                                    "WOOHOO! I can't wait to play EarthBound on Virtual Console"]) +"""
 Currently Loaded Project: """ + str(loader('last_proj', register)) + """
 Default Project Directory: """ + str(unc_path))
-        
-    
-            
 
     #Save - Load
     set_theme()
